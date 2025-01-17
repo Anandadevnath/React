@@ -2,15 +2,18 @@
 //              component (React version 16.8) {useState, useEffect, useContext, useReducer, useRef, useMemo, useCallback and more...}
 // useState() = A React hook that allows the creation of a stateful variable AND  a setter function to update it's value in a virtual DOM
 //              [state, setState]
+
 import Mycomponent from "./Mycomponent.jsx"
+import Updater_function from "./Updater_function.jsx"
 
 function App() {
 
   return (
     <>
-      <Mycomponent />
+      {/* <Mycomponent /> */}
+      <Updater_function />
     </>
   )
 }
-            
+
 export default App
