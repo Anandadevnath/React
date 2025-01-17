@@ -3,9 +3,10 @@
 //                  allows for safe updates based on the previous state
 //                  Used with multiple state updates and asynchronous function 
 //                  Good practice to use updater functions
-import Updater_function from "./Update_function.jsx"
-import Update_objects from "./Update_objects.jsx"
-import Update_array from "./Update_array.jsx"
+import Updater_function from "./Update functions/Update_function.jsx"
+import Update_objects from "./Update functions/Update_objects.jsx"
+import Update_array from "./Update functions/Update_array.jsx"
+import Update_array_object from "./Update functions/Update_array_object.jsx"
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
     <>
       {/* <Updater_function /> */}
       {/* <Update_objects /> */}
-      <Update_array />
+      {/* <Update_array /> */}
+      <Update_array_object />
     </>
   )
 }

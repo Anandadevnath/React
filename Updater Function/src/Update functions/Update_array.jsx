@@ -15,7 +15,7 @@ const UpdateArray = () => {
         setItems(colors.filter((_, i) => i !== index));
     }
 
-    return (
+    return ( 
         <div>
             <h2>Update Array</h2>
             <ul>
