@@ -1,10 +1,10 @@
-import Todohtml from './ToDoList/Todohtml.jsx'
+import Todolist from './ToDoList/Todolist.jsx'
 
 function App() {
 
   return (
     <>
-      <Todohtml />
+      <Todolist />
     </>
   )
 }
